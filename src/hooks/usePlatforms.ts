@@ -3,9 +3,10 @@ import platforms from "../data/platforms";
 interface Platform {
   id: number;
   name: string;
-  slug: string;
-}
+  slug: string;}
 
-const usePlatforms = () => ({ data: platforms, isLoading: false, error: null });
+
+
+ const usePlatforms = () => ({ data: platforms, isLoading: false, error: null });
 
 export default usePlatforms;
