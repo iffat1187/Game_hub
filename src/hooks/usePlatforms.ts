@@ -3,7 +3,8 @@ import platforms from "../data/platforms";
 interface Platform {
   id: number;
   name: string;
-  slug: string;}
+  slug: string;
+}
 
 
 
